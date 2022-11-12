@@ -8,7 +8,11 @@ export default function Header() {
   const [navMobile, setNavMobile] = useState(false)
 
   return (
-    <header className="py-6">
+    <header
+      className="py-6"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
       <div className="container mx-auto">
         <div className="flex justify-between">
           <img src={Logo} alt="Logo" className="h-8" />

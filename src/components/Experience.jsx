@@ -5,18 +5,30 @@ import Button from "./Button"
 
 export default function Experience() {
   return (
-    <section className="mb-12">
+    <section className="mb-12 mt-6">
       <div className="container mx-auto ">
-        <div className="flex flex-col min-h-[480px] space-y-6 lg:space-x-20 lg:flex-row ">
+        <div className="flex flex-col min-h-[480px] space-y-6 lg:space-x-20 lg:flex-row  ">
           <div className="flex-1 flex space-x-6 items-center lg:space-x-12 ">
-            <div className=" self-start">
+            <div
+              className=" self-start"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
               <img src={Img1} alt="exper landing page" />
             </div>
-            <div className="self-end">
+            <div
+              className="self-end"
+              data-aos="fade-down"
+              data-aos-duration="800"
+            >
               <img src={Img2} alt="exper landing page" />
             </div>
           </div>
-          <div className="flex-1 flex flex-col items-start justify-center">
+          <div
+            className="flex-1 flex flex-col items-start justify-center"
+            data-aos="fade-left"
+            data-aos-duration="800"
+          >
             <h2 className="mb-1 text-3xl">
               New Experince in Playing Games
             </h2>

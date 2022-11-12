@@ -7,7 +7,10 @@ export default function Banner() {
     <div className="min-h-[600px] relative pt-24 pb-12 text-center lg:pt-48 lg:pb-0 lg:text-left">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
-          <div>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
             <h1 className="text-3xl font-bold mb-8 lg:text-5xl lg:leading-snug">
               Let's Explore <br /> Three-Dimensional
               Visually.
@@ -28,7 +31,7 @@ export default function Banner() {
             <Users />
           </div>
 
-          <div data-aos="fade-up" data-aos-delay="800">
+          <div data-aos="fade-up" data-aos-duration="800">
             <img
               src={BannerImage}
               alt=""

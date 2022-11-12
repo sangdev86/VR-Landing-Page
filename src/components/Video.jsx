@@ -7,9 +7,9 @@ export default function Video() {
   const [isOpen, setIsOpen] = React.useState(false)
   return (
     <section className=" bg-purple-900 py-12 lg:py-6 mb-12">
-      <div className="container mx-0">
-        <div className="flex flex-col lg:flex-row justify-center items-center space-y-6 lg:space-x-6">
-          <h3 className="text-3xl font-semibold">
+      <div className="container mx-auto">
+        <div className="flex flex-col lg:flex-row lg:items-center space-y-6 lg:space-x-6">
+          <h3 className="text-2xl lg:text-3xl font-semibold">
             Awesome experiences with virtual reality world
           </h3>
           <div className=" bg-videoBg w-[270px] h-[180px] bg-no-repeat bg-cover relative">
